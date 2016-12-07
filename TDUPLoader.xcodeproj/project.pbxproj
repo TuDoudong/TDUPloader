@@ -15,6 +15,8 @@
 		2809D4361D81095E008812DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2809D4341D81095E008812DE /* LaunchScreen.storyboard */; };
 		2809D4411D81095E008812DE /* TDUPLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809D4401D81095E008812DE /* TDUPLoaderTests.m */; };
 		2809D44C1D81095E008812DE /* TDUPLoaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809D44B1D81095E008812DE /* TDUPLoaderUITests.m */; };
+		2809D45B1D810AA1008812DE /* TDUploaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809D45A1D810AA1008812DE /* TDUploaderOperation.m */; };
+		2809D45E1D810B4A008812DE /* TDUploaderHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809D45D1D810B4A008812DE /* TDUploaderHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2809D4471D81095E008812DE /* TDUPLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDUPLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2809D44B1D81095E008812DE /* TDUPLoaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDUPLoaderUITests.m; sourceTree = "<group>"; };
 		2809D44D1D81095E008812DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2809D4591D810AA1008812DE /* TDUploaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDUploaderOperation.h; sourceTree = "<group>"; };
+		2809D45A1D810AA1008812DE /* TDUploaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDUploaderOperation.m; sourceTree = "<group>"; };
+		2809D45C1D810B4A008812DE /* TDUploaderHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDUploaderHandle.h; sourceTree = "<group>"; };
+		2809D45D1D810B4A008812DE /* TDUploaderHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDUploaderHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2809D42A1D81095E008812DE /* AppDelegate.m */,
 				2809D42C1D81095E008812DE /* ViewController.h */,
 				2809D42D1D81095E008812DE /* ViewController.m */,
+				2809D45C1D810B4A008812DE /* TDUploaderHandle.h */,
+				2809D45D1D810B4A008812DE /* TDUploaderHandle.m */,
+				2809D4591D810AA1008812DE /* TDUploaderOperation.h */,
+				2809D45A1D810AA1008812DE /* TDUploaderOperation.m */,
 				2809D42F1D81095E008812DE /* Main.storyboard */,
 				2809D4321D81095E008812DE /* Assets.xcassets */,
 				2809D4341D81095E008812DE /* LaunchScreen.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2809D42E1D81095E008812DE /* ViewController.m in Sources */,
+				2809D45B1D810AA1008812DE /* TDUploaderOperation.m in Sources */,
 				2809D42B1D81095E008812DE /* AppDelegate.m in Sources */,
+				2809D45E1D810B4A008812DE /* TDUploaderHandle.m in Sources */,
 				2809D4281D81095E008812DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				2809D4521D81095E008812DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2809D4531D81095E008812DE /* Build configuration list for PBXNativeTarget "TDUPLoaderTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				2809D4551D81095E008812DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2809D4561D81095E008812DE /* Build configuration list for PBXNativeTarget "TDUPLoaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				2809D4581D81095E008812DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
